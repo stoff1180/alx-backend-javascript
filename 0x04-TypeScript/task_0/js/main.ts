@@ -6,17 +6,17 @@ interface Student {
 }
 
 const student1: Student = {
-  firstName: "Besthor",
-  lastName: "Igbe",
-  age: 20,
-  location: "New York",
+  firstName: "Naja",
+  lastName: "Mustapha",
+  age: 22,
+  location: "Casablanca",
 };
 
 const student2: Student = {
-  firstName: "Jane",
-  lastName: "Blessedb",
-  age: 22,
-  location: "Los Angeles",
+  firstName: "Rajaa",
+  lastName: "Tariq",
+  age: 20,
+  location: "Rabat",
 };
 
 const studentsList: Student[] = [student1, student2];
@@ -56,4 +56,3 @@ function createTable(): void {
 }
 
 createTable();
-
